@@ -40,6 +40,10 @@ const QuestionTwo = () => {
         Clique aqui para retornar
       </Link>
       <h1 className="text-white text-center text-2xl">Questão 2</h1>
+      <p className="text-center text-orange-400">
+        Exemplo de input: Ana, 89,78, Maria, 45.8, 27, 56, Paula Pereira, 978,
+        A, VIVA, 35, 125, 8999,
+      </p>
 
       <form
         onSubmit={handleSubmit}

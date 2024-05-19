@@ -39,6 +39,9 @@ const QuestionOne = () => {
         Clique aqui para retornar
       </Link>
       <h1 className="text-white text-center text-2xl">Questão 1</h1>
+      <p className="text-center text-orange-400">
+        Exemplo de input: Antônio Carlos Pereira da Silva dos Santos e Machado
+      </p>
 
       <form
         onSubmit={handleSubmit}
