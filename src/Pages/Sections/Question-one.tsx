@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { formatName } from "../../Services/PrimeiraQuestao";
 import { Link } from "react-router-dom";
+import { Button } from "../../Components/Button";
 
 interface Nome {
   nomeCompleto: string;
@@ -30,10 +31,13 @@ const QuestionOne = () => {
   };
 
   return (
-    <div className="space-y-4 self-center w-full lg:w-2/3 ">
-      <p className="text-center text-lg text-orange-400">
-        <Link to={"/"}>Clique aqui para retornar</Link>
-      </p>
+    <div className="space-y-4 flex flex-col justify-center w-full lg:w-2/3 ">
+      <Link
+        to={"/"}
+        className="rounded-md w-1/2 h-auto self-center  px-4 py-2 bg-orange-500 hover:bg-orange-400  text-center text-gray-100 "
+      >
+        Clique aqui para retornar
+      </Link>
       <h1 className="text-white text-center text-2xl">Questão 1</h1>
 
       <form
@@ -49,6 +53,7 @@ const QuestionOne = () => {
           onChange={(e) => setInputValue(e.target.value)}
           className="px-4 py-2 border rounded-xl outline-none w-1/2"
         />
+        <Button>Adicionar</Button>
       </form>
 
       <div className="flex flex-col items-center justify-center ">
