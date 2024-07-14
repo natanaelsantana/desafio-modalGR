@@ -6,6 +6,8 @@ Este teste técnico é para uma candidatura na empresa MODALGR para seguir na tr
 
 O site é responsivo e conta com os dois desafios propostos descritos abaixo
 
+Obs: A resolução de cada um está na pasta "Services" cada função é separada em um arquivo próprio e tem o respectivo nome da questão que ela resolve
+
 ## Tecnologias escolhidas e motivos 
 
 ### ReactJS
